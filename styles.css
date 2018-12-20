@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    border: 3px dotted green;
+}
+#artOne {
+    border: 3px solid red;
+}
+#artTwo {
+    border: 3px solid burlywood;
+}

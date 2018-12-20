@@ -1,3 +1,18 @@
+// 1. Create an input field in your DOM. Give it an id of message.
+// 2. Create two article elements with unique id values. Use Flexbox
+//     to display them in a row, each taking 50% of the width of the browser.
+// 3. Give each article a different border color.
+// 4. Write an event listener that listens for the keyup event on the input field.
+// 5. The event handler function should update the textContent property of both sections.
+
+let outputOne = document.getElementById("artOne")
+let outputTwo = document.getElementById("artTwo")
+
+document.getElementById("message").addEventListener("keyup", function(event) {
+    outputOne.innerHTML = event.target.value;
+    outputTwo.innerHTML = event.target.value;
+})
+
 let outputEl = document.getElementById("output-target")
 
 /*
